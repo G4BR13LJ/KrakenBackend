@@ -64,5 +64,4 @@ Follow these steps to set up the project on your local machine:
     cd frontend  # Navigate to the React frontend folder
     npm install  # Install required JavaScript packages
     npm start  # Start the React development server
-7. ```bash
-    Open your browser and go to http://localhost:3000 for the React app and http://localhost:8000 for the Django backend.
+7. Open your browser and go to http://localhost:3000 for the React app and http://localhost:8000 for the Django backend.
