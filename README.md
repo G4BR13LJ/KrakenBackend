@@ -50,13 +50,19 @@ Follow these steps to set up the project on your local machine:
    git clone https://github.com/yourusername/bitcoin-trading-web-app.git
    cd bitcoin-trading-web-app
 
-2. cd backend  # Navigate to the Django backend folder
-python -m venv venv  # Create a virtual environment
-source venv/bin/activate  # Activate the virtual environment (use `venv\Scripts\activate` on Windows)
-pip install -r requirements.txt  # Install required Python packages
-3. python manage.py migrate
-4. python manage.py runserver
-5. cd frontend  # Navigate to the React frontend folder
-npm install  # Install required JavaScript packages
-npm start  # Start the React development server
-6. Open your browser and go to http://localhost:3000 for the React app and http://localhost:8000 for the Django backend.
+2. ```bash
+    cd backend  # Navigate to the Django backend folder
+    python -m venv venv  # Create a virtual environment
+    source venv/bin/activate  # Activate the virtual environment (use `venv\Scripts\activate` on Windows)
+    pip install -r requirements.txt  # Install required Python packages
+3. ```bash
+   python manage.py migrate
+4.
+5. ```bash
+   python manage.py runserver
+6. ```bash
+    cd frontend  # Navigate to the React frontend folder
+    npm install  # Install required JavaScript packages
+    npm start  # Start the React development server
+7. ```bash
+    Open your browser and go to http://localhost:3000 for the React app and http://localhost:8000 for the Django backend.
